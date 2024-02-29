@@ -36,7 +36,7 @@ test_data = validation.flow_from_directory('/content/drive/MyDrive/dataset/test'
                                           class_mode='categorical')
 
 
-#Using Transfer learning on Inception model
+#Working with pre-trained model
 model= vis.image_regression_model('pretrained_inception',
                                   train_data=train_data,
                                   val_data=test_data)
